@@ -9,15 +9,16 @@ package AutoRepair;
  *
  * @author brody.dalbon
  */
-public class Tool {
+public class Tool extends WorkBay {
     
     String toolType;
     String toolSize;
+    String toolName;
     String manufacture;
-    
-    Tool(String t, String s, String m){
+    Tool(String t, String s, String n, String m){
         toolType = t;
         toolSize = s;
+        toolName = n;
         manufacture = m;
     }
     

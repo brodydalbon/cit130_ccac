@@ -9,6 +9,6 @@ package AutoRepair;
  *
  * @author brody.dalbon
  */
-public class Employee {
+public class Employee  {
     
 }
