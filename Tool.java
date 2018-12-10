@@ -9,18 +9,17 @@ package AutoRepair;
  *
  * @author brody.dalbon
  */
-public class Car {
-    String carManufacture;
-    String color;
-    String type;
+public class Tool {
     
-    Car (String m, String c, String t){
-        carManufacture = m;
-        color = c;
-        type = t;
-        
-       
-    }//close car
+    String toolType;
+    String toolSize;
+    String toolName;
+    String manufacture;
+    Tool(String t, String s, String n, String m){
+        toolType = t;
+        toolSize = s;
+        toolName = n;
+        manufacture = m;
+    }//close tool
     
-  
 }//close class

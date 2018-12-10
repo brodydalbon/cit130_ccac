@@ -5,22 +5,22 @@
  */
 package AutoRepair;
 
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  *
  * @author brody.dalbon
  */
-public class Car {
-    String carManufacture;
-    String color;
-    String type;
+public class WorkBay {
+    Car c;
+    List<Tool> toolList;
+    List<Employee> emps;
     
-    Car (String m, String c, String t){
-        carManufacture = m;
-        color = c;
-        type = t;
+    WorkBay(){
+        toolList = new LinkedList<>();
+        emps = new LinkedList<>();
         
-       
-    }//close car
-    
-  
-}//close class
+    }
+}
+

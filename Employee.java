@@ -9,18 +9,16 @@ package AutoRepair;
  *
  * @author brody.dalbon
  */
-public class Car {
-    String carManufacture;
-    String color;
-    String type;
+public class Employee  {
+    String fName;
+    String lName;
+    boolean masterTech;
     
-    Car (String m, String c, String t){
-        carManufacture = m;
-        color = c;
-        type = t;
-        
-       
-    }//close car
+    Employee (String f, String l, boolean m){
+        fName = f;
+        lName = l;
+        masterTech = m;
+            
+    }//close employee
     
-  
 }//close class

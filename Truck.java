@@ -9,18 +9,15 @@ package AutoRepair;
  *
  * @author brody.dalbon
  */
-public class Car {
-    String carManufacture;
-    String color;
-    String type;
+public class Truck extends Car {
+String toyota;
+String baja;
+String truck;
+
+    public Truck(String m, String c, String t) {
+        super(m, c, t);
+    }
     
-    Car (String m, String c, String t){
-        carManufacture = m;
-        color = c;
-        type = t;
-        
-       
-    }//close car
-    
-  
-}//close class
+
+}
+
