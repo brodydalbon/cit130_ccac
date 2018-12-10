@@ -5,6 +5,7 @@
  */
 package AutoRepair;
 
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -15,5 +16,11 @@ public class WorkBay {
     Car c;
     List<Tool> toolList;
     List<Employee> emps;
+    
+    WorkBay(){
+        toolList = new LinkedList<>();
+        emps = new LinkedList<>();
+        
+    }
 }
 

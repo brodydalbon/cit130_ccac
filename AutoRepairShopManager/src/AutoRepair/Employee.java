@@ -10,5 +10,15 @@ package AutoRepair;
  * @author brody.dalbon
  */
 public class Employee  {
+    String fName;
+    String lName;
+    boolean masterTech;
     
-}
+    Employee (String f, String l, boolean m){
+        fName = f;
+        lName = l;
+        masterTech = m;
+            
+    }//close employee
+    
+}//close class

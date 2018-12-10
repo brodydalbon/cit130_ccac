@@ -9,7 +9,7 @@ package AutoRepair;
  *
  * @author brody.dalbon
  */
-public class Tool extends WorkBay {
+public class Tool {
     
     String toolType;
     String toolSize;
@@ -20,6 +20,6 @@ public class Tool extends WorkBay {
         toolSize = s;
         toolName = n;
         manufacture = m;
-    }
+    }//close tool
     
-}
+}//close class
