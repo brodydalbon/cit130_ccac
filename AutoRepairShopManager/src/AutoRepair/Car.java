@@ -13,14 +13,12 @@ public class Car {
     String carManufacture;
     String color;
     String type;
-    
+       
     Car (String m, String c, String t){
         carManufacture = m;
         color = c;
         type = t;
-        
-       
+               
     }//close car
     
-  
 }//close class

@@ -16,11 +16,15 @@ public class WorkBay {
     Car c;
     List<Tool> toolList;
     List<Employee> emps;
+    //things in a WorkBay
     
     WorkBay(){
         toolList = new LinkedList<>();
         emps = new LinkedList<>();
-        
-    }
-}
+    //linked list
+    
+    }//close workBay
+
+}//close class
+
 

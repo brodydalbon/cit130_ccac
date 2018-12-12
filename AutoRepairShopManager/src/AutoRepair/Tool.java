@@ -10,11 +10,11 @@ package AutoRepair;
  * @author brody.dalbon
  */
 public class Tool {
-    
     String toolType;
     String toolSize;
     String toolName;
     String manufacture;
+    
     Tool(String t, String s, String n, String m){
         toolType = t;
         toolSize = s;

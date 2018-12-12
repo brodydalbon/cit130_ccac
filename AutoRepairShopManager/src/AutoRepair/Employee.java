@@ -9,7 +9,7 @@ package AutoRepair;
  *
  * @author brody.dalbon
  */
-public class Employee  {
+public class Employee {
     String fName;
     String lName;
     boolean masterTech;
